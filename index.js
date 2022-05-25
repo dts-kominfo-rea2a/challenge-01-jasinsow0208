@@ -15,7 +15,7 @@ colorUser1.add("Yellow");
 colorUser1.add("Pink");
 colorUser1.add("White");
 colorUser1.add("Purple");
-firstUser.favouriteColor = colorUser1;
+firstUser.favoriteColor = colorUser1;
 
 firstUser.isHavePet = "Yes";
 
@@ -40,7 +40,7 @@ restUser1.add("Padang");
 restUser1.add("Tteok");
 restUser1.add("Sushi");
 restUser1.add("Sushi");
-firstUser.favouriteRestaurant = restUser1;
+firstUser.favoriteRestaurant = restUser1;
 
 // Second User
 secondUser.name = "Wendy";
@@ -52,7 +52,7 @@ const colorUser2 = new Set();
 colorUser2.add("Blue");
 colorUser2.add("Black");
 colorUser2.add("Grey");
-secondUser.favouriteColor = colorUser2;
+secondUser.favoriteColor = colorUser2;
 
 secondUser.isHavePet = "No";
 
@@ -77,7 +77,7 @@ restUser2.add("Katsu");
 restUser2.add("Geprek");
 restUser2.add("Pancake");
 restUser2.add("Eggy");
-secondUser.favouriteRestaurant = restUser2;
+secondUser.favoriteRestaurant = restUser2;
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
 const users = [firstUser, secondUser];
